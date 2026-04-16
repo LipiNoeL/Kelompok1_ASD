@@ -11,7 +11,7 @@ def addStudent():
     student = {}
     grades = []
 
-    name = input("Student Full Name: ")
+    name = input("Student Name: ")
 
     for i in range(5):
         grade = int(input(f"{name} Subject {i+1} Grades: "))
