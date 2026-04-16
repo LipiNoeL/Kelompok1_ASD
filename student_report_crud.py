@@ -27,7 +27,7 @@ def addStudent():
 # READ (SHOW STUDENT)
 # ======================
 def showStudents(data):
-    print("\n===== STUDENT LIST =====")
+    print("\n===== ALL STUDENT LIST =====")
     for index, student in enumerate(data):
         print(f"{index+1}. {student['name']} - {student['grades']}")
 
